@@ -1,0 +1,1 @@
+Miranda is a cute mushroom~ She has a cute pet girl~
