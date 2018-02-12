@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Secret Recipe</title>
+    
+    <style type="text/css">
+      html {font-size: 10px;}
+      
+      div {
+        border-width: 1px;
+        border-color: blue;
+        border-style: solid;
+        min-height: 15px;
+        overflow: visible;
+        border-top-color: red;
+        border: 3px solid #FFB11B;
+      }
+      .container {
+        width: 600px;
+        margin: 0 auto;
+      }
+      .thumbnail {
+        border: 1px solid #F17C67;
+        width: 298px;
+        height: 298px;
+        float: left;
+      }
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: block;
+      }
+
+      .thumbnail-box {
+        box-sizing: border-box;
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+        border: 3px solid #FFB11B;
+        float: left;
+        margin: 5px;
+        width: 290px;
+      }
+      .container-inline{
+        width: 1000px;
+        margin: 0 auto;
+        font-size: 0;
+        border:2px solid #FFBA84;
+        color: #F17C67;
+        background-color: #F7FFEC;
+      }
+
+      .container-inline2{
+        width: 800px;
+        margin: 0 auto;
+        font-size: 0;
+        border:2px solid #F17C67;
+        color: #F17C67;
+        background-color: #F8F8FF;
+
+      }
+      
+      .thumbnail-in {
+        box-sizing: border-box;
+        width: 200px;
+        border: 2px solid #FFBA84;
+        display: inline-block;
+        font-size: 2rem;
+        text-align:center;
+        font-family:Apple Chancery, cursive;
+      }
+
+      .thumbnail-in2 {
+        box-sizing: border-box;
+        width: 200px;
+        border: 2px solid #F17C67;
+        display: inline-block;
+        font-size: 2rem;
+        text-align:center;
+        font-family:Apple Chancery, cursive;
+      }
+
+      ul {
+        /*list-style-type: none; */
+        margin-left: 30%;
+        margin-right: 30%;
+        padding: 0;
+        /*overflow: hidden; */
+        background-color: #FFF7F6;
+        font-size:17px;
+        color: #D9AB42;
+        font-family: Chalkduster, fantasy;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <!-- title -->
+    <p style="text-align:center; color:#F19483;font-family:Snell Roundhand, cursive;font-size:700%; background-color: #FFF7F6;">Secret Recipe</p>
+    <!-- guide bar -->
+    <div class="container-inline">
+      <div class="thumbnail-in"><a href="#">Appetizer</a></div>
+      <div class="thumbnail-in"><a href="#">Desserts</a></div>
+      <div class="thumbnail-in"><a href="#">Main Dish</a></div>
+      <div class="thumbnail-in"><a href="#">Vegetarian</a></div>
+      <div class="thumbnail-in"><a href="#">Healthy</a></div>
+    </div>
+
+    <br />
+    <br />
+    <br />
+
+    <!-- The food's main title and image -->
+    <p style="text-align:center; color:#FFB11B;font-family:Bradley Hand, cursive;font-size:350%;">Spaghetti Cacio e Pepe</p>
+    <p style="text-align:center;">
+        <img src="http://images.media-allrecipes.com/userphotos/720x405/3478412.jpg" width=35% height=35% title="Spaghetti Cacio e Pepe" />
+    </p>
+
+    <br />
+    <br />
+    
+    <!-- guide bar 2 -->
+    <div class="container-inline2">
+      <div class="thumbnail-in2"><a href="#">Save to My Menu</a></div>
+      <div class="thumbnail-in2"><a href="#">Rate It</a></div>
+      <div class="thumbnail-in2"><a href="#">Print Recipe</a></div>
+      <div class="thumbnail-in2"><a href="#">Share</a></div>
+    </div>
+
+   <br />
+   <br />
+
+    <!-- Ingredients list -->
+    <p style="text-align:center; color:#ED784A;font-family:Bradley Hand, cursive;font-size:320%;">Ingredients</p>
+    <ul>
+        <li>1 pound spaghetti</li>
+        <br />
+        <li>6 tablespoons olive oil</li>
+        <br />
+        <li>2 cloves garlic, minced</li>
+        <br />
+        <li>2 teaspoons ground black pepper</li>
+        <br />
+        <li>1 3/4 cups grated Pecorino Romano cheese</li>
+    </ul>
+
+    <p style="text-align:center; color:#855B32;font-family:Apple Chancery, cursive;font-size:200%;"><ins>Add all ingredients to your basket :)</ins></p>
+  
+    <br />
+    <!-- Direction List -->
+    <p style="text-align:center; color:#ED784A;font-family:Bradley Hand, cursive;font-size:320%;">Directions!</p>
+    <ul>
+        <li>Bring a large pot of lightly salted water to a boil. Cook spaghetti in the boiling water, stirring occasionally until tender yet firm to the bite, about 10 minutes. Scoop out some of the cooking water and reserve. Drain spaghetti.</li>
+        <br />
+        <li>Heat oil in a large skillet over medium heat. Add garlic and pepper; cook and stir until fragrant, 1 to 2 minutes. Add spaghetti and Pecorino Romano cheese. Ladle in 1/2 cup of reserved cooking water; stir until cheese is melted, about 1 minute. Add more cooking water until sauce coats spaghetti, about 1 minute more.</li>
+    </ul>
+
+    <br />
+    <button style="font-size:20px;background-color: #E4E863; text-align:center; font-family:serif">I made it!!</button>
+
+    <br />
+
+    <!-- Other Recommendation-->
+    <p style="text-align:center; color:#ED784A;font-family:Bradley Hand, cursive;font-size:320%;">Other Recommendations:</p>
+    <div class="container clearfix">
+      <div class="thumbnail-box"><p style="text-align:center;"><img src=""/> </p></div>
+      <div class="thumbnail-box"><p style="text-align:center;"><img src=""/> </p> </div>
+      <div class="thumbnail-box"><p style="text-align:center;"><img src=""/> </p></div>
+      <div class="thumbnail-box"><p style="text-align:center;"><img src=""/> </p></div>
+    </div>
+
+
+  </body>
+</html>
