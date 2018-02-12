@@ -1,0 +1,201 @@
+html {font-size: 10px;}
+html,body {margin: 0;}
+html {
+  background: url(../img/timg.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+main {
+  width: 1000px;
+  margin:0 auto;
+  padding: 20px;
+}
+
+article {
+  width: 570px;
+  float: left;
+  margin-right: 20px;
+}
+
+aside {
+  width: 200px;
+  float: left;
+  min-height: 500px;
+}
+
+article,
+aside {
+  padding: 30px;
+}
+
+ul.vertical-menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.vertical-menu li {
+
+  text-align: center;
+  border-bottom: 2px solid;
+}
+
+li a {
+  font-size: 15px;
+  color: purple;
+  text-decoration: none;
+  display: block;
+  padding: 17px 3px;
+}
+
+li a:hover {
+  background-color: rgba(0,100,255,0.7);
+}
+
+
+div {
+  border-width: 1px;
+  border-color: blue;
+  border-style: solid;
+  min-height: 15px;
+  overflow: visible;
+  border-top-color: red;
+  border: 3px solid #FFB11B;
+    }
+.container {
+  width: 600px;
+  margin: 0 auto;
+      }
+.thumbnail {
+  border: 1px solid #F17C67;
+  width: 298px;
+  height: 298px;
+  float: left;
+      }
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+      }
+
+.thumbnail-box {
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border: 3px solid #FFB11B;
+  float: left;
+  margin: 5px;
+  width: 290px;
+      }
+.container-inline{
+  width: 550px;
+  margin: 0 auto;
+  font-size: 0;
+  border:2px solid #FFBA84;
+  color: #F17C67;
+  background-color: #F7FFEC;
+      }
+.container-inline2{
+  width: 520px;
+  margin: 0 auto;
+  font-size: 0;
+  border:2px solid #F17C67;
+  color: #F17C67;
+  background-color: #F8F8FF;
+      }
+      
+.thumbnail-in {
+  box-sizing: border-box;
+  width: 110px;
+  border: 2px solid #FFBA84;
+  display: inline-block;
+  font-size: 2rem;
+  text-align:center;
+  font-family:Apple Chancery, cursive;
+      }
+
+.thumbnail-in2 {
+  box-sizing: border-box;
+  width: 130px;
+  border: 2px solid #F17C67;
+  display: inline-block;
+  font-size: 2rem;
+  text-align:center;
+  font-family:Apple Chancery, cursive;
+      }
+
+ul {
+  /*list-style-type: none; */
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 0;
+  /*overflow: hidden; */
+  background-color: #FFF7F6;
+  font-size:17px;
+  color: #D9AB42;
+  font-family: Chalkduster, fantasy;
+      }
+
+header {
+  width: 80%;
+  padding: 0 10%;
+  height: 50px;
+  /*position: fixed;*/
+  margin-bottom: 10px;
+  z-index: 10;
+  background-color: #FFB19D;
+  background: url(../img/green_dust_scratch.png);
+}
+
+header h1 {
+  color: #E85A0C;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-family: Chalkduster, fantasy;
+}
+
+nav {
+  float: right;
+  display: inline-block;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align-center;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(255,128,106, 0.1);
+}
+
+nav li {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 12px;
+  height: 15px;
+  line-height: 15px;
+  width: 100px;
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #E85A0C;
+  font-family:Chalkduster, fantasy; 
+  display: block;
+  text-align: center;
+  transition: all 1s;
+}
+
+nav a:hover {
+  background-color: rgba(255,177,157, 0.5);
+  color: #fff;
+}
+
+nav a.active {
+  background-color: white;
+  color: #444;
+}
+
